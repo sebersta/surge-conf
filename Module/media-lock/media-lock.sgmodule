@@ -3,8 +3,8 @@
 
 [Panel]
 
-Media-lock = script-name=stream-all, title="Stream check", content="请刷新面板", update-interval=3600
+Media-lock = script-name=stream-all, title="Stream check", content="Please refreash", update-interval=3600
 
 [Script]
 
-Media-lock=type=generic, timeout=15, script-path=https://raw.githubusercontent.com/SebErstellen/Surge-conf/Master/Module/media-lock/medialock.js
+Media-lock=type=generic, timeout=15, script-path=https://raw.githubusercontent.com/SebErstellen/Surge-conf/main/Module/media-lock/media-lock.js?token=GHSAT0AAAAAABWDKBXPEMKVHJU4UVYQF7ZMYV5F5HQ
