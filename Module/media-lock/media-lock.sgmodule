@@ -3,7 +3,7 @@
 
 [Panel]
 
-Media-lock = script-name=stream-all, title="Stream check", content="Please refreash", update-interval=3600
+Media-lock = script-name=Media-lock, title="Stream check", content="Please refreash", update-interval=3600
 
 [Script]
 
