@@ -1,2 +1,5 @@
+#!name=Hide VPN icon
+#!desc=🫥
+
 [general]
 hide-vpn-icon = true
