@@ -1,7 +1,7 @@
 use framework "Foundation"
 use scripting additions
 
-property File : POSIX path of "" # Config file is somewhere in ~/Library/Application\ support/surge/profiles/yourfilehere.conf
+property File : POSIX path of "" # The config file is somewhere in ~/Library/Application\ support/surge/profiles/yourfilehere.conf
 property Airport : POSIX path of ""
 property AnotherAirport : POSIX path of ""
 
