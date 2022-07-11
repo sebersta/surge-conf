@@ -1,7 +1,7 @@
 use framework "Foundation"
 use scripting additions
 
-property FileDestne : POSIX path of "" # it's in ~/Application\ support/surge/profiles/yourfilehere.conf
+property File : POSIX path of "" # Config file is somewhere in ~/Library/Application\ support/surge/profiles/yourfilehere.conf
 property Airport : POSIX path of ""
 property AnotherAirport : POSIX path of ""
 
@@ -18,28 +18,29 @@ on run {}
 	
 	-- Log time
 	set t to "# updated on " & (time string of (current date))
-	writeTextToFile(t & return, FileDestne, true)
+	writeTextToFile(t & return, File, true)
 	
 	-- Write the header
-	writeTextToFile("[Proxy]" & return, FileDestne, false)
+	writeTextToFile("[Proxy]" & return, File, false)
 	
 	-- write Airport
 	set temptxt to read Airport
-	writeTextToFile(temptxt & return, FileDestne, false)
+	writeTextToFile(temptxt & return, File, false)
 	
 	-- write AnotherAirport
 	set temptxt to read AnotherAirport
-	writeTextToFile(temptxt & return, FileDestne, false)
+	writeTextToFile(temptxt & return, File, false)
 	
 	-- check
-	FindandReplace("🇨🇳", "🇹🇼", FileDestne)
+	FindandReplace("🇨🇳", "🇹🇼", File)
 	
-	-- Restart
-	--	tell application "Surge"
-	--		quit
-	--	end tell
-	--	delay 2 -- Wait for surge to close
-	--	tell application "Surge" to activate
+
+	(* 	Use "Automatic reload" option in profile settings instead of these.
+	tell application "Surge"
+			quit
+	end tell
+	delay 2 -- Wait for surge to close
+	tell application "Surge" to activate *)
 	
 end run
 
