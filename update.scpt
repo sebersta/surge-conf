@@ -96,8 +96,3 @@ on writeTextToFile(theText, thefile, overwriteExistingContent)
 		end try
 	end try
 end writeTextToFile
-
-
-
-
-
