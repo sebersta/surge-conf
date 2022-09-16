@@ -144,9 +144,6 @@ DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,battle.net
 
 # Weibo
-DOMAIN-SUFFIX,weibo.cn
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-KEYWORD,weibo
 
 # zhihu
