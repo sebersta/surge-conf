@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,store.apple.com
 DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
+
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
 DOMAIN-SUFFIX,icloud-sandbox.com
-DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,itunes.com.edgekey.net
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,safebrowsing.apple
