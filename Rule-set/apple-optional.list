@@ -22,7 +22,6 @@ USER-AGENT,com.apple.appstored* // iOS App Store
 DOMAIN,api.smoot.apple.cn
 DOMAIN,apps.apple.com
 DOMAIN,apple-events.akamaized.net
-DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple.com.cdn20.com
