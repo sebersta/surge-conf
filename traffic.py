@@ -17,8 +17,8 @@ def main():
     r = requests.get(url = URL, headers = headers)
     data = r.json()
 
-    up = convert(data['interface']["en11"]['outCurrentSpeed'])
-    down = convert(data['interface']["en11"]['inCurrentSpeed'])
+    up = convert(data['interface']["en0"]['outCurrentSpeed'])
+    down = convert(data['interface']["en0"]['inCurrentSpeed'])
     print("DOWNLOAD "+down)
     print("UPLOAD "+up)
 
