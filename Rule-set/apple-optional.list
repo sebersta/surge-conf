@@ -1,5 +1,5 @@
 DOMAIN,aod-ssl.itunes.apple.com
-DOMAIN,metrics.icloud.com
+DOMAIN-SUFFIX,icloud.com
 DOMAIN,aod.itunes.apple.com
 DOMAIN,audio-ssl.itunes.apple.com
 DOMAIN,audio.itunes.apple.com
@@ -15,7 +15,6 @@ DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 PROCESS-NAME,storedownloadd // Mac App Store
@@ -44,7 +43,6 @@ DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-icloud.cn
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,appleicloud.cn
-DOMAIN-SUFFIX,applemx-icloud.com
 DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud-content.com
