@@ -1,3 +1,3 @@
 #!/bin/bash
-surge-cli stop
+/usr/local/bin/surge-cli stop
 open -a Surge
