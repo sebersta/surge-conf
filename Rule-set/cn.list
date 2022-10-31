@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 
 # China Apps
+DOMAIN-SUFFIX,fp-it.fengkongcloud.com
 DOMAIN-SUFFIX,zto.com
 USER-AGENT,MApi*
 USER-AGENT,MicroMessenger*
