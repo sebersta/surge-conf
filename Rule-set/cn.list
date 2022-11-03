@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 
 # China Apps
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,youke.co
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,fp-it.fengkongcloud.com
 DOMAIN-SUFFIX,zto.com
