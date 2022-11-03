@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 
 # China Apps
+IP-CIDR,17.248.170.169/32,DIRECT
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,youke.co
 DOMAIN-SUFFIX,mmstat.com
