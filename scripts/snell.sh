@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-get install wget unzip -y
 cd
-wget -O https://dl.nssurge.com/snell/snell-server-v4.0.0-linux-amd64.zip
+wget -c https://dl.nssurge.com/snell/snell-server-v4.0.0-linux-amd64.zip
 unzip -o snell-server-v4.0.0-linux-amd64.zip
 echo \
 	'[Unit]
