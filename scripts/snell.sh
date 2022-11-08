@@ -13,3 +13,10 @@ ExecStart=/root/snell-server
 Restart=always
 [Install]
 WantedBy=multi-user.target' > /etc/systemd/system/snell.service
+y | ./snell-server
+systemctl enable snell
+systemctl start snell
+echo
+echo "Snell service is set up succesfully. Copy the following line to surge"
+echo "$(curl -s ipinfo.io/city > /dev/null) = snell, $(curl -s ipinfo.io/ip > /dev/null), $(cat snell-server.conf | grep -i listen | cut --delimiter=':' -f2), $(cat snell-server.conf |grep psk | sed 's/ //g'), version=4"
+
