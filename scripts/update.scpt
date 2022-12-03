@@ -5,10 +5,6 @@ property File : POSIX path of "" # The config file is somewhere in ~/Library/App
 property Airport : POSIX path of ""
 property AnotherAirport : POSIX path of ""
 
-
-
-
-
 on run {}
 	
 	-- Download nodelist from airport
@@ -33,14 +29,7 @@ on run {}
 	
 	-- check
 	FindandReplace("🇨🇳", "🇹🇼", File)
-	
-
-	(* 	Use "Automatic reload" option in profile settings instead of these.
-	tell application "Surge"
-			quit
-	end tell
-	delay 2 -- Wait for surge to close
-	tell application "Surge" to activate *)
+	deleteLinesFromFile(FileDestne, {"", "", "", "", "", ""})
 	
 end run
 
@@ -96,3 +85,28 @@ on writeTextToFile(theText, thefile, overwriteExistingContent)
 		end try
 	end try
 end writeTextToFile
+
+on deleteLinesFromFile(thefile, deletePhrases)
+	set theText to read thefile
+	repeat with deletePhrase in deletePhrases
+		set newText to ""
+		try
+			-- here's how you can delete all lines of text fron fileText that contain the deletePhrase.
+			-- first turn the text into a list so you can repeat over each line of text
+			set textList to paragraphs of theText
+			
+			-- now repeat over the list and ignore lines that have the deletePhrase
+			repeat with i from 1 to count of textList
+				set thisLine to item i of textList
+				if thisLine does not contain deletePhrase then
+					set newText to newText & thisLine & return
+				end if
+			end repeat
+			if newText is not "" then set newText to text 1 thru -2 of newText
+		on error
+			set newText to theText
+		end try
+		set theText to newText
+	end repeat
+	writeTextToFile(newText, thefile, true)
+end deleteLinesFromFile
