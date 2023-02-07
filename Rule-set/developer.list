@@ -67,3 +67,5 @@ DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.net
+
+DOMAIN-SUFFIX,nodejs.org
