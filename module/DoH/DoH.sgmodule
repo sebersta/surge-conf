@@ -1,6 +1,0 @@
-#!name = DoH
-#!desc = DNS-over-HTTPS (DoH)
-
-[General]
-dns-server = 223.5.5.5, 8.8.8.8, 119.29.29.29
-doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query, https://doh.dns.sb/dns-query
